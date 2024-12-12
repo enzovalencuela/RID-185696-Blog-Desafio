@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*ESTILIZAÇÃO BÁSICA /////////////////////////////////////////*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*ESTILIZAÇÃO DA NAV /////////////////////////////////////////*/
+.navbar {
+  background-color: #02a28f;
+  padding: 1rem 9.75rem;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  color: #fff;
+}
+
+/*ESTILIXAÇÃO DA DIV GERAL DA PÁGINA /////////////////////////////////////////*/
+.div-geral {
+  padding: 5.375rem 9.75rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+/*ESTILIXAÇÃO DO ARTICLE /////////////////////////////////////////*/
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.article-top {
+  background-size: cover;
+  background-image: url(https://s3-alpha-sig.figma.com/img/cce8/50e5/98e266707f8ec4ed9dc3e8c36b7667dc?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Io4c4Uz6TLIaIOpWBSLGw4iFArTGx5GEYbIlnO5Bqt2jODcVYwSHE~kvs71ciJkXRt-TexmciWalHFtmhEqWZO6ZLRNNg37w280~SsHKKygp10V6e-BP4bSV0GgekHUaBLnAeFfsuwswht7eYu46zLS9NjdxBPWVzC3QmbtJqb8WgHZbIkzyQFhxj4poufwyS~ORQcoKICIPZ91qlZWhchMBQEfRPmSO5x1k9S8YU8lmKXvIHsHV6ErdYYtoVlgv2zJ5JK88BhyUp1WCR~1omuXQmlpiHrQWNAdrqDOJbBKjIJNkvYZ8TonVEkVofi0J6TSqWizgrcJDI2wYr7ubrA__),
+    linear-gradient(180deg, rgba(102, 102, 102, 0) 0%, #000000 100%);
+  box-shadow: 0px 10px 20px 0px #0000001a;
+  color: #fff;
+  width: 744px;
+  height: 396px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.span-article {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 19.5px;
+}
+
+span {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 19.5px;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 39.01px;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 19.5px;
+}
+
+/*ESTILIZAÇÃO DA SECTION 1 (POSTS MAIS RECENTES) /////////////////////////////////////////*/
+.title-section1 {
+  width: 46.5rem;
+  border-radius: 8px;
+  background-color: #02a28f;
+  box-shadow: 0px 10px 10px 0px #0000001a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & a {
+    color: #fff;
+    padding: 1rem 1.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 17.07px;
+    text-decoration-line: underline;
+  }
+}
+
+.box-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  gap: 1.25rem;
+}
+
+.card-section1 {
+  display: flex;
+  flex-direction: column;
+  padding: 0.75rem 0 0 0;
+  width: 360px;
+  gap: 0;
+
+  & img {
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+    width: 360px;
+    height: 191px;
+  }
+}
+
+.card-texts {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 10px 20px 0px #0000001a;
+  padding: 1rem;
+  font-size: 0.875rem;
+  border-radius: 0 0 1rem 1rem;
+
+  & h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 24.38px;
+    color: #000;
+    text-align: left;
+    padding: 0 0 0.75rem 0;
+  }
+}
+
+.span1 {
+  color: #02a28f;
+  padding-bottom: 0.75rem;
+}
+
+.p-span {
+  font-weight: 700;
+  line-height: 17.07px;
+  color: #616161;
+  padding-bottom: 0.75rem;
+
+  & span {
+    font-weight: 500;
+    line-height: 17.07px;
+    padding-bottom: 0.75rem;
+  }
+}
+
+.p-card {
+  font-weight: 400;
+  line-height: 17.07px;
+  color: #000;
+  padding-bottom: 0.75rem;
+}
+
+.date-span {
+  font-weight: 500;
+  line-height: 17.07px;
+  color: #616161;
+  padding-bottom: 0.75rem;
+}
+
+/*ESTILIZAÇÃO DAS SECTIONS /////////////////////////////////////////*/
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.title-sections {
+  width: 22.5rem;
+  border-radius: 10px;
+  background-color: #02a28f;
+  box-shadow: 0px 10px 10px 0px #0000001a;
+}
+
+/*ESTILIZAÇÃO DA SECTION 2 (POSTS POPULARES) /////////////////////////////////////////*/
+.section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+h3 {
+  color: #fff;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.card-section2 {
+  display: flex;
+  flex-direction: row;
+  width: 22.5rem;
+  padding: 0.75rem;
+  gap: 0.75rem;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px 0px #0000001a;
+
+  & img {
+    width: 132px;
+    height: 70px;
+    border-radius: 10px;
+  }
+
+  & span {
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 14.63px;
+    color: #616161;
+  }
+}
+
+h4 {
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 17.07px;
+}
+
+/*ESTILIZAÇÃO DA SECTION 3 (CATEGORIAS) /////////////////////////////////////////*/
+.section3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 19.5px;
+  color: #616161;
+}
+
+/*ESTILIZAÇÃO DO FOOTER /////////////////////////////////////////*/
+footer {
+  background-color: #02a28f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & p {
+    padding: 1rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 17.07px;
+    color: #fff;
+  }
+}
+
+/*ESTILIZAÇÃO DA RESPONSIVIDADE NO CELULAR ///////////////////////////////////////////////////////////////////////////////////////////////*/
+@media (max-width: 768px) {
+  /*ESTILIZAÇÃO DA NAV /////////////////////////////////////////*/
+  .navbar {
+    padding: 1rem;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 29.26px;
+    text-align: center;
+  }
+
+  /*ESTILIXAÇÃO DA DIV GERAL DA PÁGINA /////////////////////////////////////////*/
+  .div-geral {
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  /*ESTILIXAÇÃO DO ARTICLE /////////////////////////////////////////*/
+  .article-top {
+    width: 100%;
+    height: 396px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 10px;
+    padding: 24px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 29.26px;
+  }
+
+  /*ESTILIZAÇÃO DA SECTION 1 (POSTS MAIS RECENTES) /////////////////////////////////////////*/
+  .title-section1 {
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & a {
+      color: #fff;
+      padding: 0 1.5rem 0 0;
+      font-size: 0.875rem;
+      font-weight: 500;
+      line-height: 17.07px;
+      text-decoration-line: underline;
+    }
+  }
+
+  .box-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-section1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem 0 0 0;
+    max-width: 360px;
+    width: 100%;
+    gap: 0;
+
+    & img {
+      max-width: 360px;
+      width: 100%;
+    }
+  }
+
+  /*ESTILIZAÇÃO DAS SECTIONS /////////////////////////////////////////*/
+  .title-sections {
+    width: 100%;
+  }
+
+  /*ESTILIZAÇÃO DA SECTION 2 (POSTS POPULARES) /////////////////////////////////////////*/
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  h3 {
+    padding: 0.5rem;
+    display: flex;
+  }
+
+  .card-section2 {
+    width: 100%;
+  }
+
+  /*ESTILIZAÇÃO DA SECTION 3 (CATEGORIAS) /////////////////////////////////////////*/
+  .section3 {
+    padding-bottom: 0.5rem;
+  }
+}
