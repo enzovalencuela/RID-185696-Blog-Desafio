@@ -1,3 +1,5 @@
+
+
 # Blog Responsivo
 
 Este é um projeto de blog responsivo desenvolvido apenas com HTML e CSS. O objetivo principal foi criar um site com um design adaptável a diferentes dispositivos, proporcionando uma experiência de usuário consistente em desktops, tablets e celulares.
@@ -30,19 +32,22 @@ Este é um projeto de blog responsivo desenvolvido apenas com HTML e CSS. O obje
 
 1. Clone este repositório em sua máquina:
    ```bash
-   git clone https://github.com/seu-usuario/blog-responsivo.git
+   git clone https://github.com/enzovalencuela/RID-185696-Blog-Desafio.git
    ```
 2. Abra o arquivo `index.html` em qualquer navegador moderno.
 
-## 🖼️ Preview
+## 🌐 Link do Projeto
 
+Acesse o projeto online: [Link para o Blog Responsivo](https://blog-responsiv.netlify.app/)
+
+## 🖼️ Preview
 ![Imagem do Projeto](https://github.com/user-attachments/assets/f6c2669e-4b4f-441e-aa19-5ef658d4b71d)
 
-
-## 🚀 Melhorias Possíveis
+## 🚀 Melhorias Futuras
 
 - Adicionar interação com JavaScript para funcionalidades como comentários.
 - Expandir o design para incluir temas claros e escuros.
-  
+
 
 ⭐ **Se gostou do projeto, deixe uma estrela no repositório!**
+
